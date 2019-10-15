@@ -163,6 +163,7 @@ class MainViewController: UIViewController
         if(imageView != nil)
         {
             hud?.mode = MBProgressHUDMode.customView
+            
             hud?.customView = imageView
             
             hud?.show(animated: true)
